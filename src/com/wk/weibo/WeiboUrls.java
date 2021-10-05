@@ -16,5 +16,7 @@ public class WeiboUrls {
 
     public static final String WEIBO_DELETE_WEIBO="https://weibo.com/aj/mblog/del?ajwvr=6";
 
+    public static final String WEIBO_DELETE_WEIBO_NEW="https://weibo.com/ajax/statuses/destroy";
+
 
 }

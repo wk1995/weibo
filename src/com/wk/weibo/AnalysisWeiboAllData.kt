@@ -58,7 +58,7 @@ class AnalysisWeiboAllData : IWeiboDataAnalysis {
         }
         WkLog.i("leftkeys: $leftKeys  ${weiboBeans.size}", TAG)
         weiboBeans.forEach {
-            WkLog.i("weiboBeans: ${it.isInValid()}", TAG)
+            WkLog.i("weiboBean: ${it.mid}", TAG)
         }
     }
 
