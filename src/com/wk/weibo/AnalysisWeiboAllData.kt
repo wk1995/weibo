@@ -31,7 +31,7 @@ class AnalysisWeiboAllData : IWeiboDataAnalysis {
     }
 
 
-    override fun processString(string: String, flag: Int): String? {
+    override fun processString(string: String, flag: Int, what: Int): String? {
         if (flag == IProcessStringListener.FLAG_END) {
             WkLog.d(weiboData.toString(), TAG)
             processData()

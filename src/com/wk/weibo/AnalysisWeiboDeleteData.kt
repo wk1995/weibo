@@ -19,7 +19,7 @@ class AnalysisWeiboDeleteData: IWeiboDataAnalysis {
     private val weiboData by lazy {
         StringBuilder()
     }
-    override fun processString(string: String, flag: Int): String? {
+    override fun processString(string: String, flag: Int, what: Int): String? {
         if (flag == IProcessStringListener.FLAG_END) {
             WkLog.d(weiboData.toString(), AnalysisWeiboAllData.TAG)
         } else {
